@@ -42,7 +42,7 @@ int rows = ReadInt("Введите количество строк в матри
 
 int cols = ReadInt("Введите количество столбцов в матрице: ");
 
-int[,] matrix = GenerateMatrix(rows, cols, 5, 10);
+int[,] matrix = GenerateMatrix(rows, cols, -10, 10);
 
 PrintMatrix(matrix);
 
